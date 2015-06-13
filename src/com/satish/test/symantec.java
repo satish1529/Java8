@@ -1,4 +1,4 @@
-package com.mportal.test;
+package com.satish.test;
 
 public class symantec {
 	

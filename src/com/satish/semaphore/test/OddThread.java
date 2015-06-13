@@ -1,4 +1,4 @@
-package com.mportal.semaphore.test;
+package com.satish.semaphore.test;
 
 import java.util.concurrent.Semaphore;
 

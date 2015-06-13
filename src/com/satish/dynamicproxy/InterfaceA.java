@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.mportal.dynamicproxy;
+package com.satish.dynamicproxy;
 
 /**
  * @author satish.k

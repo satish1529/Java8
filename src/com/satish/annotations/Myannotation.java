@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.mportal.annotations;
+package com.satish.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Repeatable;

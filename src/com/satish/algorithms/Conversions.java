@@ -1,4 +1,4 @@
-package com.mportal.algorithms;
+package com.satish.algorithms;
 
 public class Conversions {
 

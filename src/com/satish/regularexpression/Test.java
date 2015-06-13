@@ -1,4 +1,4 @@
-package com.mportal.regularexpression;
+package com.satish.regularexpression;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

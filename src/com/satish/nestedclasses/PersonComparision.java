@@ -1,4 +1,4 @@
-package com.mportal.nestedclasses;
+package com.satish.nestedclasses;
 
 public class PersonComparision {
 

@@ -1,4 +1,4 @@
-package com.mportal.deadlock;
+package com.satish.deadlock;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;

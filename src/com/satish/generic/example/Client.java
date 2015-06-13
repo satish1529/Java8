@@ -1,4 +1,4 @@
-package com.mportal.generic.example;
+package com.satish.generic.example;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.mportal.serialization;
+package com.satish.serialization;
 
 import java.io.IOException;
 import java.io.ObjectInput;

@@ -1,4 +1,4 @@
-package com.mportal.serialization;
+package com.satish.serialization;
 
 import java.io.File;
 import java.io.FileInputStream;

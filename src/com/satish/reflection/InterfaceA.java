@@ -1,4 +1,4 @@
-package com.mportal.reflection;
+package com.satish.reflection;
 
 public interface InterfaceA {
 

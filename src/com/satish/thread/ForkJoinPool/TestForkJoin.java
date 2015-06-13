@@ -1,4 +1,4 @@
-package com.mportal.thread.ForkJoinPool;
+package com.satish.thread.ForkJoinPool;
 
 import java.util.List;
 import java.util.concurrent.ForkJoinPool;

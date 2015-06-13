@@ -1,4 +1,4 @@
-package com.mportal.semaphone;
+package com.satish.semaphone;
 
 import java.util.concurrent.Semaphore;
 

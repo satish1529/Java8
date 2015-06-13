@@ -1,4 +1,4 @@
-package com.mportal.thread.ScheduleExecutorService;
+package com.satish.thread.ScheduleExecutorService;
 
 import java.util.*;
 import java.util.concurrent.Callable;

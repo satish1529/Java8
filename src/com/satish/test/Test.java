@@ -1,4 +1,4 @@
-package com.mportal.test;
+package com.satish.test;
 
 import java.lang.ref.PhantomReference;
 import java.lang.ref.ReferenceQueue;

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.mportal.annotations;
+package com.satish.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -9,7 +9,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 import java.util.Enumeration;
 
-import com.mportal.size.MyAgent;
+import com.satish.size.MyAgent;
 
 /**
  * @author satish.k

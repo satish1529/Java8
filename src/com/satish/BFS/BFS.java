@@ -1,4 +1,4 @@
-package com.mportal.BFS;
+package com.satish.BFS;
 
 import java.util.List;
 import java.util.Queue;

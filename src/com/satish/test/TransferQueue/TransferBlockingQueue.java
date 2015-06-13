@@ -1,4 +1,4 @@
-package com.mportal.test.TransferQueue;
+package com.satish.test.TransferQueue;
 
 import java.util.Collection;
 import java.util.concurrent.BlockingDeque;

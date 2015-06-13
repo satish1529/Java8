@@ -1,4 +1,4 @@
-package com.mportal.interfaces;
+package com.satish.interfaces;
 
 public class InterfaceBImpl extends ClassB implements InterfaceB,InterfaceC {
 

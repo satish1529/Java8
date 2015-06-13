@@ -1,4 +1,4 @@
-package com.mportal.dynamicproxy;
+package com.satish.dynamicproxy;
 
 import java.lang.reflect.Proxy;
 

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.mportal.dynamicproxy;
+package com.satish.dynamicproxy;
 
 /**
  * @author satish.k
@@ -10,7 +10,7 @@ package com.mportal.dynamicproxy;
 public class InterfaceAImpl implements InterfaceA {
 
 	/* (non-Javadoc)
-	 * @see com.mportal.dynamicproxy.InterfaceA#test(java.lang.String, int)
+	 * @see com.satish.dynamicproxy.InterfaceA#test(java.lang.String, int)
 	 */
 	@Override
 	public void test(String a, int b) {

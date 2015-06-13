@@ -1,4 +1,4 @@
-package com.mportal.generic.example1;
+package com.satish.generic.example1;
 
 import java.util.Comparator;
 

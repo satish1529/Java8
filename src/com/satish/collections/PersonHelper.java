@@ -1,4 +1,4 @@
-package com.mportal.collections;
+package com.satish.collections;
 
 public class PersonHelper {
 	

@@ -1,4 +1,4 @@
-package com.mportal.nestedclasses;
+package com.satish.nestedclasses;
 
 import java.util.ArrayList;
 import java.util.Arrays;

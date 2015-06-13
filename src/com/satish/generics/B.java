@@ -1,4 +1,4 @@
-package com.mportal.generics;
+package com.satish.generics;
 
 public class B implements A {
 

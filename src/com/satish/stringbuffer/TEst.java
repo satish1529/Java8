@@ -1,4 +1,4 @@
-package com.mportal.stringbuffer;
+package com.satish.stringbuffer;
 
 import java.net.Socket;
 

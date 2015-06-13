@@ -1,9 +1,9 @@
-package com.mportal.DFS;
+package com.satish.DFS;
 
 import java.util.List;
 import java.util.Stack;
 
-import com.mportal.DFS.Node;
+import com.satish.DFS.Node;
 
 public class DFS {
 

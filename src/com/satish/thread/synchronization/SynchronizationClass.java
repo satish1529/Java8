@@ -1,4 +1,4 @@
-package com.mportal.thread.synchronization;
+package com.satish.thread.synchronization;
 
 public class SynchronizationClass {
 

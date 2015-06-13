@@ -1,4 +1,4 @@
-package com.mportal.deadlock;
+package com.satish.deadlock;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
