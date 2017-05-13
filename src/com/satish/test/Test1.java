@@ -2,6 +2,7 @@ package com.satish.test;
 
 import com.sun.scenario.effect.Reflection;
 
+@SuppressWarnings("unused")
 public class Test1 {
 
 	int i ;

@@ -312,7 +312,7 @@ public class BinaryTree
 			
 			if(root.left==null && root.right==null)
 			{
-				printArray(paths,length);	
+				printArray(paths,length);	  
 			}else
 			{
 				printAllPaths(root.left,paths,length);
@@ -656,5 +656,30 @@ public class BinaryTree
 	                (isHeightBalanced(root.left) &&
 	                isHeightBalanced(root.right) &&
 	                Math.abs(height(root.left) - height(root.right)) <=1);
+	}
+	
+	
+	//convert sorted array to BST
+	public Node createBST(int [] a,int start ,int end){
+		if(start>end)
+			return null;
+		int mid = start+end/2;
+		Node n = new Node(a[mid]);
+		n.setLeft(createBST(a, start, mid-1));
+		n.setRight(createBST(a, mid-1, end));
+		return n;
+	}
+	
+	public int balancedHeight(Node n){
+		if(n==null) return 0;
+		int h1 = balancedHeight(n.left);
+		int h2 = balancedHeight(n.right);
+		if(h1==-1 || h2==-1) return -1;
+		if(Math.abs(h1-h2)>1) return -1;
+		if(h1>h2) 
+			return h1 = h1+1;
+		else
+			return h2 = h2+1;
+		
 	}
 }

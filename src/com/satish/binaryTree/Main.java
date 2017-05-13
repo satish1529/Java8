@@ -23,8 +23,8 @@ public class Main {
 		/*bt.printSum();
 		bt.countNumberOfNodes();*/
 		System.out.println(bt.findNode(1));
-	/*//	bt.printMirrorOfBinaryTree();
-		bt.createCopyBinaryTree();
+	bt.printMirrorOfBinaryTree();
+	/*//		bt.createCopyBinaryTree();
 		bt.printMaxDepth();
 		bt.printAllPaths();
 		bt.printAllLeafs();

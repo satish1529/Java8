@@ -71,6 +71,7 @@ public class TestReflection {
 		 
 		 try {
 			Method m = c.getMethod("segting");
+			
 			System.out.println(m.getName());
 			int o = (int)m.invoke(b, null);
 			Object o1 = m.invoke(b, new Object[0]);

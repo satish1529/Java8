@@ -20,10 +20,10 @@ public class DelayBlockingQueuePutThread implements Runnable {
 			bq.put(l);
 			bq.put(l);
 			System.out.println("put");
-			l = new Light(10,1);
+			l = new Light(10,3000);
 			bq.put(l);
 			System.out.println("put");
-			l = new Light(3,3);
+			l = new Light(30,1);
 			bq.put(l);
 			System.out.println("put");
 			System.out.println(bq);

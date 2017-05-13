@@ -51,7 +51,7 @@ public class GenericTest {
 		{
 			System.out.println(a);
 		}
-		
+		System.out.println("================");
 		
 		List<B> listb = new ArrayList<B>();
 		listb.add(new B());
@@ -62,7 +62,7 @@ public class GenericTest {
 		{
 			System.out.println(a);
 		}
-		
+		System.out.println("================");
 	}
 	
 	{
@@ -129,6 +129,7 @@ public class GenericTest {
 		objects.add(1);
 		
 		List<Number> listn = new ArrayList<Number>();
+		listn.add(1.1);
 		iterateSuperObject1(listn);
 	
 		//iterateSuperObject(listi);
@@ -157,6 +158,13 @@ public class GenericTest {
 			System.out.println("unknown : "+obj);
 	}
 	
+	private static <T extends Integer> void iterateExtendsObjectInt(List<T> objects)
+	{
+		//objects.add(1);
+		for(Number obj: objects)
+			System.out.println("unknown : "+obj);
+	}
+	
 	private static void iterateExtendsObject(List<? extends Number> objects)
 	{
 		objects.add(null);
@@ -166,6 +174,7 @@ public class GenericTest {
 	
 	private static void iterateRestrictedObject(List<Number> objects)
 	{
+		objects.add(1.1);
 		for(Number obj: objects)
 			System.out.println("unknown : "+obj);
 	}
@@ -181,10 +190,15 @@ public class GenericTest {
 	{
 		objects.add(10);
 		objects.add(new Integer(1));
+		for(Object obj: objects)
+			System.out.println("sdf : "+obj);
 	}
 	
 	private static void iterateSuperObject2(List<? super Number> objects)
 	{
+
+		objects.add(10);
+		objects.add(new Integer(1));
 		for(Object obj: objects)
 			System.out.println("unknown : "+obj);
 	}

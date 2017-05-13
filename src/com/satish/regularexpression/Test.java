@@ -3,7 +3,7 @@ package com.satish.regularexpression;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import sun.misc.Unsafe;
+
 
 
 public class Test {
@@ -30,7 +30,7 @@ public class Test {
 	
 	private static void test()
 	{
-		Unsafe.getUnsafe();
+	//	Unsafe.getUnsafe();
 		
 	}
 }

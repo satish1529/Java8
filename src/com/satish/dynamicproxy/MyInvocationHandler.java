@@ -23,10 +23,10 @@ public class MyInvocationHandler implements InvocationHandler {
 	@Override
 	public Object invoke(Object proxy, Method method, Object[] args)
 			throws Throwable {
-		// TODO Auto-generated method stub
 		System.out.println("invoke......");
 		System.out.println(method.getName()+method.getClass());
 	    test();
+	
 		return method.invoke(obj, args);
 	
 	}

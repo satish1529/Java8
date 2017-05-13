@@ -32,7 +32,7 @@ public class Light implements Delayed {
 
 	@Override
 	public long getDelay(TimeUnit unit) {
-		System.out.println("in getDelay");
+		//System.out.println("in getDelay");
 		long delay = this.delay - System.currentTimeMillis();
 		return delay;
 	}
